@@ -1,0 +1,101 @@
+.portfolio{
+   max-width: 700px;
+   margin-top: 30px;
+   margin-left: auto ;
+   margin-right: auto;
+   margin-bottom: 0;
+   text-align: center;
+
+   h1{
+      margin-bottom: 50px;
+      border-bottom: 2px solid $yellowrr;
+   }
+} 
+
+.bg-eu{
+   background-image: url('/media/project-emerald-unique.jpg');
+}
+.bg-dj{
+   background-image: url('/media/project-dariojuris.jpg');
+}
+.bg-ut{
+   background-image: url(http://rafaelrubio.co/media/Rafael-Ricardo-Rubio.jpg);
+}
+.project{
+   color: $bluePetrol;
+   @include transition (.2s, ease-out);
+   background: $blueSky;
+} 
+.project {
+   width: 100%;
+   display: inline-block;
+   position: relative;
+   .bg-eu, .bg-dj, .bg-ut {
+       .border-box;
+       opacity: .25;
+       background-size: cover;
+       width: 100%;
+       height: 100%;
+       min-height: 250px;
+       max-height: 400px;
+       display: block;
+   }
+   :hover {
+       background: $bluePetrol;
+       opacity: .7;
+       @include transition (.5s, ease-out);
+   }
+   .biopj {
+       .border-box;
+       text-align: left;
+       padding: 12px;
+       position: absolute;
+       min-height: 150px;
+       width: 100%;
+       height: 100%;
+       bottom: 0;
+       z-index: 5;
+   }
+   .year {
+       display: block;
+       vertical-align: bottom;
+       margin-bottom: 6px;
+       padding-bottom: 6px;
+    }
+   .roles, .read-more{
+      font-size: 16px;
+   }
+}  
+
+.project{
+   .biopj{
+      color: #fff;
+      text-shadow: 0 1px 0 $blueSky, 0 0 1px $blueSky;
+     .read-more {
+          position: absolute;
+          bottom: 0;
+          @include transition (1s, ease-out);
+          opacity: 0;
+       }
+      .year {
+          border-bottom: 1px solid $blueSky;
+         }
+   }
+   :hover .biopj{
+      text-shadow: 0 1px 0 $bluePetrol, 0 0 5px $bluePetrol;
+      background: $bluePetrol;
+      
+   }
+   :hover .read-more {
+       opacity: 1;
+       -webkit-transform: translateY(-24px);
+       -moz-transform: translateY(-24px);
+       -ms-transform: translateY(-24px);
+       -o-transform: translateY(-24px);
+       transform: translateY(-24px);
+   }
+}
+
+.controls{
+   display: inline-block;
+}

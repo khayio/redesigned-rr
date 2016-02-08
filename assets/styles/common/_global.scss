@@ -1,1 +1,184 @@
+// Global values
+// --------------------------------------------------
+$blueMidnight: 		#364970;         		
+$yellowrr: 				#E9BE3A;
+$blueSky: 				#49608A;
+$blueRiver: 			#99A3BD;				
+$bluePetrol:  		#0E2536;
 
+
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  	 -moz-transition: $args;
+  	  -ms-transition: $args;
+  	   -o-transition: $args;
+  		  transition: $args;
+}
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+  	background-clip: padding-box;  /* stops bg color from leaking outside the border: */
+}
+@mixin border-box($border){
+   -webkit-box-sizing: $border;
+   	  -moz-box-sizing: $border;
+   		   box-sizing: $border;
+}
+
+html {
+   font-family: 'walkway_ultraboldregular',arial;
+}
+
+  p{
+   font-size: 18px;
+}
+
+img{
+   display: block;
+   height: auto;
+   max-width: 100%
+}
+/* ==========================================================================
+   Social Media
+   ========================================================================== */
+
+.social-media {
+  text-align:center;
+  margin: 1px 0 ;
+  -webkit-border-bottom-right-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+  border-bottom-right-radius: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  -moz-border-radius-bottomleft: 4px;
+  border-bottom-left-radius: 4px;
+    a {
+       color:#fff;
+       font-size:1.6em;
+       margin-right:15px;
+       text-decoration:none;
+   }
+}
+
+.social-media > a:hover.ss-twitter , .social-media > a:focus.ss-twitter   {
+ color:#4099FF;
+ text-decoration:none; 
+}
+ 
+.social-media > a:hover.ss-linkedin , .social-media > a:focus.ss-linkedin   {
+ color:#007bb6;
+ text-decoration:none; 
+}
+ 
+.social-media > a:hover.ss-googleplus , .social-media > a:focus.ss-googleplus   {
+ color:#C63D2D;
+ text-decoration:none; 
+}
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media (max-width: 670px) { 
+ 
+    .banner .brand {
+       display: block;
+       float: none;
+       padding: 10px 0;
+       text-align: center;
+   }
+   .nav-main {
+       float: none;
+       text-align: center;
+   }
+   
+   .nav-main .nav>li>a {
+       padding: .3rem .5rem;
+       font-size: 1.2em;
+       font-weight: 400;
+   }
+   .nav-main .nav>li.active>a {
+        border-radius: 4px;
+      }
+   .biorr{
+      top: 0;
+      margin-top: 5px;
+      h1{
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+       }
+   .bg-intro{
+      min-height: 450px;
+   }
+  .menu-sel{
+      display: none;
+   }
+}   
+@media(max-width:480px){
+  .bg-intro{
+    background-image: url(/media/London_night_sm.jpg);
+    min-height: 500px;
+   }
+  .biorr{
+    top: 0;
+    margin-top: 5px;
+    h1{
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+  }
+}
+@media (min-width: $screen-sm){
+  
+   .sidebar { 
+      .sb-about{
+         margin-top: 50px;
+      }
+   }
+   .latestpost article{
+      max-width: 340px;
+   }
+   .blog .content{
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: center;
+   }
+   .home .banner{
+      position: fixed;
+      right: 0;
+      left: 0;
+      border-width: 0 0 1px;
+      top: 0;
+      z-index: 1030;
+   }
+
+}
+
+@media (min-width: $screen-md) { 
+   p {
+      font-size: 20px;
+   }
+   .latestpost article{
+      max-width: 450px;
+   }
+   .blog .content{
+      max-width: 750px;
+      margin: 0 auto;
+      text-align: center;
+   }   
+}
+
+@media(min-width:$screen-lg) { 
+   p{
+      font-size: 22x;
+   }
+   .latestpost article{
+      max-width: 560px;
+   }
+   .blog .content{
+      max-width: 850px;
+      margin: 0 auto;
+      text-align: center;
+   }
+} 

@@ -1,0 +1,36 @@
+.sidebar { 
+   .sb-about{
+      margin-top: 40px;
+      margin-bottom: 30px;
+   }
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+    padding: 20px;
+}
+
+.btn-yellow{
+   background: $yellowrr;
+}
+a.btn-yellow:hover, a.btn-yellow:focus{
+      background: darken($yellowrr, 10%);
+      text-decoration: none;
+      color: #fff8ff;
+      @include transition (.2s, ease);
+}
+
+.btn-blue{
+   background: $blueRiver;   
+}
+a.btn-blue:hover, a.btn-blue:focus{
+      background: darken($blueRiver, 10%);
+      text-decoration: none;
+      color: #fff8ff;
+      @include transition (.2s, ease);
+   }
+.btn-yellow, .btn-blue{
+   color: $gray-dark;
+   text-align: center;
+}

@@ -1,11 +1,14 @@
 <header class="banner">
   <div class="container">
-    <a class="brand" href="<?= esc_url(home_url('/')); ?>"><?php bloginfo('name'); ?></a>
-    <nav class="nav-primary">
+    <div class="navbar-header">
+      <a class="brand" href="<?php echo home_url(); ?>/">Rafael Rubio</a>
+    </div>
+    <div class="pull-right menu-sel">English | <a href="http://rafaelrubio.co/es/">Español</a></div>
+    <nav class="nav-main" role="navigation">
       <?php
-      if (has_nav_menu('primary_navigation')) :
-        wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav']);
-      endif;
+        if (has_nav_menu('primary_navigation')) :
+          wp_nav_menu(array('theme_location' => 'primary_navigation', 'menu_class' => 'nav navbar-nav'));
+        endif;
       ?>
     </nav>
   </div>

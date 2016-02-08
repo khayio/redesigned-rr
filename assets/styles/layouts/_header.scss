@@ -1,0 +1,79 @@
+.banner { 
+   background: $blueMidnight;    
+   .brand{
+      float: left;
+      padding: .5em 0;
+      font-size: 1.8em;
+      font-weight: 100;
+      color: #fff;
+   }
+   .menu-sel{
+    font-size: 12px;
+    color: $gray-lighter;
+    a {
+      color:$blueRiver;
+      }
+    a:hover, a:focus{
+      color:lighten($blueRiver, 30%);
+    }
+   }
+}  
+.brand:hover, .navbar-brand:focus {
+         color: $blueRiver;
+         @include transition (.2s, ease);
+         text-decoration: none;
+      }  
+
+.nav-main {
+   float: right;
+   .nav {
+    padding-left: 0;
+    list-style: none;
+      }
+   .nav>li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+      }
+   .nav>li>a {
+    padding: 1em .5em;
+    margin-right: 2em;
+    font-size: 1.2em;
+    font-weight: 300;
+    color: #fff;
+      }
+   .nav>li>a:hover, .nav>li>a:focus {
+    
+      background: $blueMidnight;
+      border-bottom: 1px solid #fff;
+      @include transition (.2s, ease);
+      } 
+   .nav>li.active>a {
+      background: $blueMidnight;
+      border-bottom: 1px solid #fff;
+      }  
+}
+
+.home .banner {
+    background-color: #fff;
+    opacity: .93;
+    .nav>li>a, .brand {
+      color:$blueMidnight;
+    }
+    .nav>li>a:hover, .nav>li>a:focus{
+      background: #fff;
+      border-bottom: 1px solid $blueMidnight;
+      @include transition (.2s, ease);
+    }
+    .menu-sel{
+      font-size: 12px;
+      color: $gray-dark;
+      a {
+        color:$brand-primary;
+      }
+      a:hover, a:focus {
+           color:darken($link-color, 15%);
+           @include transition (.2s, ease);
+      }
+    }
+}

@@ -1,0 +1,108 @@
+/* ==========================================================================
+   Content
+   ========================================================================== */
+
+.home .main {
+    padding: 0;
+}
+.intro {
+   position: relative;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   overflow: hidden;
+   color: #fff;
+   background:rgb(4,30,51);
+   background:-moz-linear-gradient(left, rgba(4,30,51,1) 0%, rgba(2,123,180,1) 57%, rgba(58,159,207,1) 100%);
+   background:-webkit-gradient(linear, left top, right top, color-stop(0%,rgba(4,30,51,1)), color-stop(57%,rgba(2,123,180,1)), color-stop(100%,rgba(58,159,207,1)));
+   background:-webkit-linear-gradient(left, rgba(4,30,51,1) 0%,rgba(2,123,180,1) 57%,rgba(58,159,207,1) 100%);
+   background:-o-linear-gradient(left, rgba(4,30,51,1) 0%,rgba(2,123,180,1) 57%,rgba(58,159,207,1) 100%);
+   background:-ms-linear-gradient(left, rgba(4,30,51,1) 0%,rgba(2,123,180,1) 57%,rgba(58,159,207,1) 100%);
+   background:linear-gradient(to right, rgba(4,30,51,1) 0%,rgba(2,123,180,1) 57%,rgba(58,159,207,1) 100%);
+   filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#041e33', endColorstr='#3a9fcf',GradientType=1 )
+} 
+   
+   .btn{
+      color: $blueMidnight;        
+   } 
+
+.bg-intro{
+  background-image: url(/media/London_night.jpg);
+  opacity: .25;
+  background-size: cover;
+  min-height: 400px;
+  display:block;
+}
+.biorr{
+    @include border-box(border-box);
+    min-height: 400px;
+    margin-top: 2.3em;
+    position: absolute;
+    top: 60px;
+    left:0;
+    z-index: 5;
+    h1 {
+        color: #fff;
+        margin-left: auto;
+        margin-right: auto;       
+        font-weight: 500;
+        opacity: 0.88;
+        padding-right:50px;
+        padding-left: 50px;
+        text-align: center;        
+     }
+     .btn-intro{
+       margin: 30px auto 20px auto;
+       text-align: center;
+    }
+}
+
+.home .share{
+   border-top: 8px solid $blueMidnight;
+   background: $yellowrr;
+}  
+
+.services {
+   margin-top: 20px;
+   p , li {
+      font-size: 21px;
+      line-height: 1.4;
+   }
+   h2{
+      color: $blueSky;
+   }
+   .serv-title{
+      border-bottom: 2px solid $yellowrr;
+      color: $gray-dark;
+   }
+}
+
+/* ==========================================================================
+   Primary Content
+   ========================================================================== */
+
+.about .container {
+    margin-bottom: 2rem;
+}
+
+.img-circle {
+    @include border-radius(50%);
+ }
+
+.latestpost article:first-of-type  {
+   font-size: 1.2em;
+   max-width: 100%!important;
+ }
+
+.latestpost article{
+   padding: 12px;
+   @include border-box(border-box);
+   vertical-align: top;
+   position: relative;
+   margin: 0;
+   width: 100%;
+}
+
+.latestpost article{
+   display: inline-block;
+   position: relative;
+}

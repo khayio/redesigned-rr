@@ -1,0 +1,23 @@
+.content-info { 
+   margin-top: 20px;
+   p{
+      text-align: center;
+      color:$blueMidnight;
+   }
+   .social-media {
+      margin: 20px 0;
+      a{
+         color:$blueMidnight;  
+         margin-bottom: 50px;
+      }
+   }
+   .lang-selft{
+      color: gray-dark;
+      font-size: 14px;
+      margin-top: 0;
+      a:hover, a:focus{
+        color: $yellowrr;
+        @include transition (.2s, ease);
+      }
+   }
+}

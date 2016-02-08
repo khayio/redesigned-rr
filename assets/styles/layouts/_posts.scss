@@ -1,0 +1,36 @@
+.latestpost .entry-title {
+   border-bottom: 1px solid $gray-dark;
+   :hover, :focus{
+      text-decoration: none;
+   }
+}
+
+.page-header{
+   padding-bottom: 2px;
+   margin-bottom: 50px;
+   border-bottom: 2px solid $yellowrr;
+}
+
+.entry-title, .entry-title a {
+  font-size: 1.5em;
+  color: $blueSky;
+}
+
+.single .entry-title{
+   font-size: 2em;
+   margin-top: 30px;
+}
+
+.entry-summary p, .entry-content p{
+   font-size: 21px;
+   line-height: 150%;
+   color: rgba(31, 31, 31, 0.85);
+}
+.single .entry-title{
+   font-size: 2.4em;
+   margin-top: 30px;
+}
+
+.hentry .byline a{ 
+   display: none;
+}

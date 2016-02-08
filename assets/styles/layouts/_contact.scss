@@ -1,0 +1,30 @@
+.contact h1{
+   margin-bottom: 50px;
+   border-bottom: 2px solid $yellowrr;
+}
+.sub-contact{
+   font-size: 1.5em;
+}
+.my-form{
+   margin-top: 20px;
+}
+
+.my-details{
+  color:$blueSky;
+  display: block;
+  margin-bottom: 30px;
+  font-size:1.5em;
+  font-style: normal;
+  line-height: 30px; 
+}
+.btn-contact{
+   background: $blueSky;
+   color: #fff;
+   @include border-radius (10px);
+   font-size: 18px;
+   @include transition (.2s, ease-out);
+   :focus, :hover{
+      @include transition (.2s, ease-out);
+      }
+
+}
