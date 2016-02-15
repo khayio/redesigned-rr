@@ -1,3 +1,29 @@
+.home .banner {
+    background:-webkit-linear-gradient(0deg,rgba(0,0,0,0) 0,rgba(0,0,0,.5) 100%);
+    background:linear-gradient(0deg,rgba(0,0,0,0) 0,rgba(0,0,0,.5) 100%);
+    padding:20px 60px 20px 20px;
+    .nav>li>a, .brand {
+      color:#fff;
+    }
+    .nav>li>a:hover, .nav>li>a:focus{
+      background: none;
+      border-bottom:1px solid #fff;
+      padding-bottom:5px;
+      margin-bottom:-5px;
+      @include transition (.2s, ease);
+    }
+    .menu-sel{
+      font-size: 12px;
+      color: $gray-lighter;
+      a {
+        color:$niceBlue;
+      }
+      a:hover, a:focus {
+           color:darken($niceBlue, 15%);
+           @include transition (.2s, ease);
+      }
+    }
+}
 .banner { 
    background: $blueMidnight;    
    .brand{
@@ -14,7 +40,7 @@
       color:$blueRiver;
       }
     a:hover, a:focus{
-      color:lighten($blueRiver, 30%);
+      border-bottom: 1px solid;
     }
    }
 }  
@@ -52,28 +78,4 @@
       background: $blueMidnight;
       border-bottom: 1px solid #fff;
       }  
-}
-
-.home .banner {
-    background-color: #fff;
-    opacity: .93;
-    .nav>li>a, .brand {
-      color:$blueMidnight;
-    }
-    .nav>li>a:hover, .nav>li>a:focus{
-      background: #fff;
-      border-bottom: 1px solid $blueMidnight;
-      @include transition (.2s, ease);
-    }
-    .menu-sel{
-      font-size: 12px;
-      color: $gray-dark;
-      a {
-        color:$brand-primary;
-      }
-      a:hover, a:focus {
-           color:darken($link-color, 15%);
-           @include transition (.2s, ease);
-      }
-    }
 }
