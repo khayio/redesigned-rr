@@ -5,61 +5,126 @@
 .home .main {
     padding: 0;
 }
-.intro {
+.cover {
+   background:$niceBlue;
    position: relative;
-   padding-top: 1rem;
-   padding-bottom: 1rem;
-   overflow: hidden;
+   height: 100%;
    color: #fff;
-   background:rgb(4,30,51);
-   background:-moz-linear-gradient(left, rgba(4,30,51,1) 0%, rgba(2,123,180,1) 57%, rgba(58,159,207,1) 100%);
-   background:-webkit-gradient(linear, left top, right top, color-stop(0%,rgba(4,30,51,1)), color-stop(57%,rgba(2,123,180,1)), color-stop(100%,rgba(58,159,207,1)));
-   background:-webkit-linear-gradient(left, rgba(4,30,51,1) 0%,rgba(2,123,180,1) 57%,rgba(58,159,207,1) 100%);
-   background:-o-linear-gradient(left, rgba(4,30,51,1) 0%,rgba(2,123,180,1) 57%,rgba(58,159,207,1) 100%);
-   background:-ms-linear-gradient(left, rgba(4,30,51,1) 0%,rgba(2,123,180,1) 57%,rgba(58,159,207,1) 100%);
-   background:linear-gradient(to right, rgba(4,30,51,1) 0%,rgba(2,123,180,1) 57%,rgba(58,159,207,1) 100%);
-   filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#041e33', endColorstr='#3a9fcf',GradientType=1 )
-} 
-   
-   .btn{
-      color: $blueMidnight;        
-   } 
-
-.bg-intro{
-  background-image: url(/media/London_night.jpg);
-  opacity: .25;
-  background-size: cover;
-  min-height: 400px;
-  display:block;
-}
-.biorr{
-    @include border-box(border-box);
-    min-height: 400px;
-    margin-top: 2.3em;
-    position: absolute;
-    top: 60px;
-    left:0;
-    z-index: 5;
     h1 {
         color: #fff;
-        margin-left: auto;
-        margin-right: auto;       
+        margin:0;       
         font-weight: 500;
-        opacity: 0.88;
-        padding-right:50px;
-        padding-left: 50px;
-        text-align: center;        
+        font-size: 5.5em;
+        text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+        span{
+          color:$niceBlue;
+        }        
      }
-     .btn-intro{
-       margin: 30px auto 20px auto;
-       text-align: center;
+    h2 {
+      font-size: 4em;
+      text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
     }
+} 
+   
+.cover-image{
+  
+  background-image: url(http://www.crit-research.it/wp-content/uploads/2015/06/Decorazioni_2.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+
 }
 
+.cover .container-fluid {
+  position:absolute;
+  bottom:0;
+  padding:60px;
+  width:100%;
+  background:-webkit-linear-gradient(0deg,rgba(0,0,0,.5) 0,rgba(0,0,0,0) 100%);
+  background:linear-gradient(0deg,rgba(0,0,0,.5) 0,rgba(0,0,0,0) 100%);
+}
+
+@media (max-width:1200px) {
+  .cover h1 {
+    font-size:4.5em;
+  }
+  .cover h2{
+    font-size: 3em;
+  }
+}
+@media (min-width:1200px) {
+  .cover h1 {
+    font-size:5.5em;
+  }
+  .cover h2{
+    font-size: 4.5em;
+  }
+}
+@media (max-width:480px) {
+  .cover h1 {
+    font-size:2.5em;
+      }
+  .cover h2 {
+    font-size: 1.5em;
+  }
+
+}
+
+@media (max-width:1024px) {
+  
+  .cover .container-fluid {
+    padding:30px;
+  }
+  .img-circle{
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 .home .share{
    border-top: 8px solid $blueMidnight;
    background: $yellowrr;
-}  
+} 
+
+.bio{
+  padding-top: 40px;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+} 
+
+.hr{
+    margin-top: 32px ;
+    margin-bottom: 32px;
+    color: #D4D8D8;
+    background-color: #D4D8D8;
+    height: 1px;
+}
+
+.job-img{
+  height: 230px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.boton-link {
+  color:#d84765;
+  background-color:rgba(216,71,101,0);
+  border-color:#d84765
+}
+.boton-link.active,.boton-link.focus,.boton-link:active,.boton-link:focus,.boton-link:hover {
+  color:#fff;
+  background-color:#d84765;
+  border-color:#d84765
+}
+.boton-link.active,.boton-link:active,.open>.dropdown-toggle.boton-link {
+  background-image:none
+}
+.boton-link.disabled,.boton-link.disabled.active,.boton-link.disabled.focus,.boton-link.disabled:active,.boton-link.disabled:focus,.boton-link.disabled:hover,.boton-link[disabled],.boton-link[disabled].active,.boton-link[disabled].focus,.boton-link[disabled]:active,.boton-link[disabled]:focus,.boton-link[disabled]:hover,fieldset[disabled] .boton-link,fieldset[disabled] .boton-link.active,fieldset[disabled] .boton-link.focus,fieldset[disabled] .boton-link:active,fieldset[disabled] .boton-link:focus,fieldset[disabled] .boton-link:hover {
+  background-color:rgba(216,71,101,.6);
+  border-color:rgba(216,71,101,.6)
+}
 
 .services {
    margin-top: 20px;

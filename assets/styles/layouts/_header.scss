@@ -57,7 +57,7 @@
     list-style: none;
       }
    .nav>li {
-    display: inline-block;
+    
     padding-right: 5px;
     padding-left: 5px;
       }
@@ -78,4 +78,23 @@
       background: $blueMidnight;
       border-bottom: 1px solid #fff;
       }  
+}
+@media (max-width:767px) {
+  .banner {
+    background:$blueMidnight!important;
+    padding:0!important
+  }
+  .banner .brand{
+    padding: 10px;
+  }
+  .nav>li{
+    background:0 0;
+    padding:20px 15px;
+  }
+  .nav>li>a:focus{
+    border-bottom:none!important;
+  }
+  .menu-sel{
+    display: none;
+   }
 }
