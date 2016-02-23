@@ -109,14 +109,14 @@
 }
 
 .boton-link {
-  color:#d84765;
+  color:$rojoClaro;
   background-color:rgba(216,71,101,0);
-  border-color:#d84765
+  border-color:$rojoClaro
 }
 .boton-link.active,.boton-link.focus,.boton-link:active,.boton-link:focus,.boton-link:hover {
   color:#fff;
-  background-color:#d84765;
-  border-color:#d84765
+  background-color:$rojoClaro;
+  border-color:$rojoClaro
 }
 .boton-link.active,.boton-link:active,.open>.dropdown-toggle.boton-link {
   background-image:none
