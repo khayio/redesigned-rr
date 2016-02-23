@@ -30,6 +30,7 @@ use Roots\Sage\Wrapper;
                 <a class="ss-twitter"  title="Follow me on Twitter" href="https://twitter.com/rikardo77"></a>
                 <a class="ss-linkedin" title="Add me on LinkedIn" href="http://uk.linkedin.com/in/rafaelricardorubio"></a>
                 <a class="ss-googleplus" title="Add me on Google Plus" href="https://plus.google.com/109486293785385567491/"></a>
+                <a class="ss-mail" title="Contact me by e-mail" href="#"></a>
               </div>
             </div>  
           </div>  

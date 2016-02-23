@@ -51,7 +51,6 @@ body,html {
    ========================================================================== */
 
 .social-media {
-  text-align:center;
   margin: 1px 0 ;
   -webkit-border-bottom-right-radius: 4px;
   -moz-border-radius-bottomright: 4px;
@@ -81,6 +80,12 @@ body,html {
  color:#C63D2D;
  text-decoration:none; 
 }
+
+.social-media > a:hover.ss-mail , .social-media > a:focus.ss-mail   {
+ color:#d35400;
+ text-decoration:none; 
+}
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
@@ -88,6 +93,9 @@ body,html {
  
 @media (min-width: $screen-sm){
   
+  div .social-media{
+      font-size: 18px;
+  }
    .sidebar { 
       .sb-about{
          margin-top: 50px;
@@ -107,7 +115,7 @@ body,html {
    p {
       font-size: 20px;
    }
-   .boton-link {
+   .boton-link, div .social-media {
       font-size: 24px;
    }
 
@@ -127,6 +135,10 @@ body,html {
    }
    .boton-link{
       font-size: 28px;
+   }
+
+   div .social-media {
+      font-size: 24px;
    }
    .latestpost article{
       max-width: 560px;
