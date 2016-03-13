@@ -16,10 +16,10 @@
       font-size: 12px;
       color: $gray-lighter;
       a {
-        color:$niceBlue;
+        color:lighten($brand-primary,10%);
       }
       a:hover, a:focus {
-           color:darken($niceBlue, 15%);
+           color:darken($brand-primary,5%);
            @include transition (.2s, ease);
       }
     }

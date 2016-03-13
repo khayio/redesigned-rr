@@ -10,7 +10,7 @@
          </span> 
          <span class="b-right pull-right">Menu</span>
       </button>
-      <a class="brand" href="<?php echo home_url(); ?>/">Rafael Rubio</a>
+      <a itemprop="url" class="brand" href="<?php echo home_url(); ?>/"><span class="" itemprop="name">Rafael Rubio</span></a>
     </div>
     <div class="pull-right menu-sel">English | <a href="http://rafaelrubio.co/es/">Español</a></div>
     <nav class="nav-main collapse navbar-collapse" role="navigation">

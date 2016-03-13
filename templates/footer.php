@@ -8,11 +8,7 @@
 		<a class="ss-googleplus" title="Add me on Google Plus" href="https://plus.google.com/109486293785385567491/"></a>
       </p>
       <div itemscope itemtype="http://schema.org/Person">
-        <p>&copy; <?php echo date('Y'); ?> <a itemprop="url" href="http://rafaelrubio.co"><span itemprop="name">Rafael Rubio</span>
-        </a></p>
-        <p class="microp"><span itemprop="jobtitle">SEO Specialist and Web Developer</span></p>
-        <p class="microp"><span itemprop="description">Rafael Rubio is a Web developer and SEO Professional with over 3 years of experience.
-          Rafael has solid knowledge in HTML5, CSS3, JavaScript and PHP.</span></p>
+        <p>&copy; <?php echo date('Y'); ?> <a href="http://rafaelrubio.co">Rafael Rubio</a></p>
       </div>    
       <p class="lang-selft">English | <a href="http://rafaelrubio.co/es/">Español</a></p>
     </div>
