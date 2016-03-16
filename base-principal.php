@@ -40,7 +40,7 @@ use Roots\Sage\Wrapper;
     <div class="row">
       <section class="bio container">
         <div class="col-sm-3">
-          <img class="img-circle" src="http://rafaelrubio.co/media/Rafael-Ricardo-Rubio.jpg">
+          <img class="img-circle" src="http://rafaelrubio.co/media/Rafael-Rubio.jpg">
          </div>
          <div class="col-sm-9 desc">
             <span itemprop="description"><p>I am a SEO professional with insight, creativity, energy and drive to achieve results.</p>
@@ -53,7 +53,7 @@ use Roots\Sage\Wrapper;
     </div>
     <div class="row jobs">
       <section class="container">
-         <div class="job-img" style="background-image:url(http://www.lastminute.com/c/content/dam/site_de/1368x437/1368x437_amsterdam.jpg); filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.lastminute.com/c/content/dam/site_de/1368x437/1368x437_amsterdam.jpg',sizingMethod='scale');"></div>
+         <div class="job-img" style="background-image:url(http://rafaelrubio.co/media/lmn_beach_logo.jpg); filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://rafaelrubio.co/media/lmn_beach_logo.jpg',sizingMethod='scale');"></div>
          <div class="col-sm-12 text-center desc">
           <p>Currently I am working as SEO Manager for lastminute.com where I have been implementing effective SEO campaigns across multiple markets in Europe.</p>
           <p>I have been working in the web since 2008 when I started developing websites using Joomla and Wordpress, from then I have been helping companies to increase their revenue through better organic visibility.</p>
@@ -68,7 +68,7 @@ use Roots\Sage\Wrapper;
     </div>
     <div class="row jobs">
       <section class="container">
-         <div class="job-img" style="background-image:url(http://www.lastminute.com/c/content/dam/site_de/1368x437/1368x437_amsterdam.jpg); filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.lastminute.com/c/content/dam/site_de/1368x437/1368x437_amsterdam.jpg',sizingMethod='scale');"></div>
+         <div class="job-img" style="background-image:url(http://rafaelrubio.co/media/skills-road.jpg); filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://rafaelrubio.co/media/skills-road.jpg',sizingMethod='scale');"></div>
           <div class="col-sm-12">
             <p>Coming from a technical background not only gives me credibility when I’m explaining technical SEO issues and implementations but also helps me bridging the gap between technical and marketing teams. I also have experience in Web design, Project management and Analytics.</p>
             <div class="text-center">
