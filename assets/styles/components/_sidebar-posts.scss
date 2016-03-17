@@ -1,0 +1,114 @@
+.single .widget_specialrecentpostsFree {
+    position: fixed!important;
+    overflow-x: hidden;
+    overflow-y: auto;
+    opacity: .5;
+    -webkit-transition: opacity 4s ease-in-out;
+    -moz-transition: opacity 4s ease-in-out;
+    -ms-transition: opacity 4s ease-in-out;
+    -o-transition: opacity 4s ease-in-out;
+    transition: opacity 4s ease-in-out
+}
+
+.single .widget_specialrecentpostsFree:hover {
+    opacity: .999999;
+    -moz-transition: opacity .3s ease-out;
+    -ms-transition: opacity .3s ease-out;
+    -o-transition: opacity .3s ease-out;
+    transition: opacity .3s ease-out;
+    webkit-transition: opacity .3s ease-out
+}
+
+.hentry .byline a {
+    display: none
+}
+
+h3.srp-widget-title {
+    display: block;
+    margin-bottom: 20px
+}
+
+div.srp-widget-container {
+    display: table;
+    clear: both
+}
+
+div.srp-widget-container a {
+    outline: 0
+}
+
+div.srp-widget-singlepost {
+    padding: 0 0 10px 0;
+    margin: 0 0 10px 0;
+    clear: both;
+    border-bottom: 1px solid #fd7963
+}
+
+div.srp-single-row {
+    display: table-cell;
+    padding: 0 10px 0 0;
+    margin: 0;
+    vertical-align: top;
+    border: 0
+}
+
+div.srp-widget-row {
+    display: block;
+    padding: 0 0 10px 0;
+    margin: 0 0 10px 0;
+    clear: both
+}
+
+div.srp-multi-column {
+    display: table-cell;
+    vertical-align: top
+}
+
+div.srp-thumbnail-box {
+    display: table-cell;
+    padding-right: 10px;
+    vertical-align: top
+}
+
+a.srp-widget-thmblink {
+    display: block
+}
+
+img.srp-widget-thmb {
+    max-width: none
+}
+
+div.srp-thumbnail-box img.avatar {
+    max-width: none
+}
+
+div.srp-content-box {
+    display: table-cell;
+    vertical-align: top
+}
+
+h4.srp-post-title {
+    display: block;
+    font-family: 'walkway_ultraboldregular'
+}
+
+p.srp-widget-excerpt {
+    margin: 0
+}
+
+p.srp-widget-date {
+    margin: 0;
+    font-size: .9em
+}
+
+p.srp-widget-author {
+    margin: 0
+}
+
+p.srp-widget-category {
+    margin: 0
+}
+
+p.srp-widget-tags {
+    margin: 0
+}

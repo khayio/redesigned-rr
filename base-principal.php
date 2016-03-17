@@ -24,10 +24,10 @@ use Roots\Sage\Wrapper;
        <section class="row">
           <div class="container">
             <div class="col-sm-12">
-              <h1>Test<span> blabla</span></h1>
-              <h2>more fasfa</h2>
+              <h1>Rafael<span> Rubio</span></h1>
+              <h2><span itemprop="jobtitle">SEO Strategist</span></h2>
               <div class="social-media">
-                <a class="ss-twitter"  title="Follow me on Twitter" href="https://twitter.com/rikardo77"></a>
+                <a class="ss-twitter"  title="Follow me on Twitter" href="https://twitter.com/rrubio9"></a>
                 <a class="ss-linkedin" title="Add me on LinkedIn" href="http://uk.linkedin.com/in/rafaelricardorubio"></a>
                 <a class="ss-googleplus" title="Add me on Google Plus" href="https://plus.google.com/109486293785385567491/"></a>
                 <a class="ss-mail" title="Contact me by e-mail" href="#"></a>
@@ -40,11 +40,11 @@ use Roots\Sage\Wrapper;
     <div class="row">
       <section class="bio container">
         <div class="col-sm-3">
-          <img class="img-circle" src="http://www.lastminute.com/c/content/dam/site_gb/CityBreaks/destinationPages/370x205_dublin_2.jpg">
+          <img class="img-circle" src="http://rafaelrubio.co/media/Rafael-Rubio.jpg">
          </div>
-         <div class="col-sm-9">
-            <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor.</p>
-            <p>Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur</p>
+         <div class="col-sm-9 desc">
+            <span itemprop="description"><p>I am a SEO professional with insight, creativity, energy and drive to achieve results.</p>
+            <p>With 6+ years of experience in SEO and Web development I am comfortable working with technical SEO challenges and providing strategic and data-driven insights for the gain of SEO.</p></span>
         </div>
       </section>
     </div><!-- /.row -->
@@ -53,14 +53,12 @@ use Roots\Sage\Wrapper;
     </div>
     <div class="row jobs">
       <section class="container">
-         <div class="job-img" style="background-image:url(http://www.lastminute.com/c/content/dam/site_de/1368x437/1368x437_amsterdam.jpg); filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.lastminute.com/c/content/dam/site_de/1368x437/1368x437_amsterdam.jpg',sizingMethod='scale');"></div>
-         <div class="col-sm-12">
-          <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor.</p>
-          <p>Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur</p>
-          <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor.</p>
-          <p>Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur</p>
+         <div class="job-img" style="background-image:url(http://rafaelrubio.co/media/lmn_beach_logo.jpg); filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://rafaelrubio.co/media/lmn_beach_logo.jpg',sizingMethod='scale');"></div>
+         <div class="col-sm-12 text-center desc">
+          <p>Currently I am working as SEO Manager for lastminute.com where I have been implementing effective SEO campaigns across multiple markets in Europe.</p>
+          <p>I have been working in the web since 2008 when I started developing websites using Joomla and Wordpress, from then I have been helping companies to increase their revenue through better organic visibility.</p>
             <div class="text-center">
-              <a class="btn boton-link" href="#">See CV</a>
+              <a class="btn boton-link" href="#">See more Experience</a>
             </div>  
          </div>
       </section><!-- /.section -->
@@ -70,14 +68,11 @@ use Roots\Sage\Wrapper;
     </div>
     <div class="row jobs">
       <section class="container">
-         <div class="job-img" style="background-image:url(http://www.lastminute.com/c/content/dam/site_de/1368x437/1368x437_amsterdam.jpg); filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.lastminute.com/c/content/dam/site_de/1368x437/1368x437_amsterdam.jpg',sizingMethod='scale');"></div>
+         <div class="job-img" style="background-image:url(http://rafaelrubio.co/media/skills-road.jpg); filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://rafaelrubio.co/media/skills-road.jpg',sizingMethod='scale');"></div>
           <div class="col-sm-12">
-            <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor.</p>
-            <p>Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur</p>
-            <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor.</p>
-            <p>Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur</p>
+            <p>Coming from a technical background not only gives me credibility when I’m explaining technical SEO issues and implementations but also helps me bridging the gap between technical and marketing teams. I also have experience in Web design, Project management and Analytics.</p>
             <div class="text-center">
-              <a class="btn boton-link" href="#">See CV</a>
+              <a class="btn boton-link" href="#">See Skills</a>
             </div>  
           </div>
          </div>
