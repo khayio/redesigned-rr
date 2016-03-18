@@ -29,7 +29,7 @@ use Roots\Sage\Wrapper;
               <div class="social-media">
                 <a class="ss-twitter"  title="Follow me on Twitter" href="https://twitter.com/rrubio9"></a>
                 <a class="ss-linkedin" title="Add me on LinkedIn" href="http://uk.linkedin.com/in/rafaelricardorubio"></a>
-                <a class="ss-googleplus" title="Add me on Google Plus" href="https://plus.google.com/109486293785385567491/"></a>
+                <a class="ss-googleplus" title="Add me on Google Plus" href="https://plus.google.com/+RafaelRicardoRubio"></a>
                 <a class="ss-mail" title="Contact me by e-mail" href="/contact/"></a>
               </div>
             </div>  
@@ -72,7 +72,7 @@ use Roots\Sage\Wrapper;
           <div class="col-sm-12">
             <p>Coming from a technical background not only gives me credibility when I’m explaining technical SEO issues and implementations but also helps me bridging the gap between technical and marketing teams. I also have experience in Web design, Project management and Analytics.</p>
             <div class="text-center">
-              <a class="btn boton-link" href="#">See Skills</a>
+              <a class="btn boton-link" href="http://rafaelrubio.co/about/">See Skills</a>
             </div>  
           </div>
          </div>

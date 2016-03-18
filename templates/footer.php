@@ -3,7 +3,7 @@
     <div class="col-lg-12">
       <?php dynamic_sidebar('sidebar-footer'); ?>
       <p class="social-media">
-      	<a class="ss-twitter"  title="Follow me on Twitter" href="https://twitter.com/rikardo77"></a>
+      	<a class="ss-twitter"  title="Follow me on Twitter" href="https://twitter.com/rrubio9"></a>
 		<a class="ss-linkedin" title="Add me on LinkedIn" href="http://uk.linkedin.com/in/rafaelricardorubio"></a>
 		<a class="ss-googleplus" title="Add me on Google Plus" href="https://plus.google.com/109486293785385567491/"></a>
       </p>
